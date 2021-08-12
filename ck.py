@@ -12,9 +12,8 @@ class Start:
     def link(self):
         start_time = time.time()
         print("\033[1;33;40m ","""
-                          CHECKER BY XDARKLE
-                  instagram: @0fve    snapchat: znecv
-                              GOOD LUCK
+                          CHECKER BY MRX
+  
         """)
         # self.file_name = input("Eneter your list name/path: ")
         start = time.perf_counter()
@@ -27,10 +26,10 @@ class Start:
                         f.strip('\n')
                         f.close()
                     if self.req.status_code == 200:
-                        print('\033[1;31;40m',' '*self.SPACING, self.lines , '    not avalible')
+                        print('\033[1;31;40m',' '*self.SPACING, self.lines , '    HAYA')
                         self.b.append(self.lines)
                     elif 404:
-                        print(Fore.GREEN, ' '*self.SPACING ,self.lines,'    is Availble')
+                        print(Fore.GREEN, ' '*self.SPACING ,self.lines,'    NYA')
                         self.a.append(self.lines)
                     else:
                         print('\033[1;36;40m',' '*self.SPACING, self.lines , '    unknown')
